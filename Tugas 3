@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Informasi Dota 2">
+    <title>Dota 2 - Game MOBA</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #111827;
+            color: white;
+            margin: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: orange;
+        }
+
+        .content {
+            background-color: #1f2937;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        img {
+            width: 300px;
+            height: 200px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        .gallery {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Judul -->
+    <div class="container">
+        <h1>DOTA 2</h1>
+
+        <!-- Konten -->
+        <div class="content">
+
+            <!-- Deskripsi -->
+            <p>
+                Dota 2 adalah game bergenre Multiplayer Online Battle Arena (MOBA)
+                yang dikembangkan oleh Valve. Dalam game ini, dua tim yang terdiri
+                dari 5 pemain bertarung untuk menghancurkan Ancient lawan.
+            </p>
+
+            <p>
+                Setiap pemain memilih hero dengan kemampuan unik dan bekerja sama
+                untuk memenangkan pertandingan. Dota 2 dikenal dengan strategi yang
+                kompleks dan gameplay yang kompetitif.
+            </p>
+
+            </p> Didalam Dota 2, pemain dapat memilih dari lebih dari 100 hero yang memiliki
+                peran berbeda seperti carry, support, dan Hard Support. Setiap hero
+                memiliki kemampuan khusus yang dapat digunakan untuk membantu tim
+                meraih kemenangan.
+       
+             <!-- Gambar -->
+            <div class="gallery">
+                <img src="images/dota1.jpg" alt="Dota 2 Gameplay" width="300" height="200" title="Gameplay Dota 2">
+                <img src="images/dota2.jpg" alt="Hero Dota 2" width="300" height="200" title="Hero Dota 2">
+                <img src="images/dota3.jpg" alt="Battle Dota 2" width="300" height="200" title="Pertarungan Dota 2">
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
