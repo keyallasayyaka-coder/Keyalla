@@ -2,130 +2,55 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Website tentang Dota 2">
-    <title>Dota 2 Website</title>
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background-color: #0f172a;
-            color: white;
-        }
-
-        header {
-            background-color: #1e293b;
-            padding: 20px;
-            text-align: center;
-        }
-
-        nav {
-            background-color: #334155;
-            padding: 10px;
-            text-align: center;
-        }
-
-        nav a {
-            color: white;
-            margin: 10px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        nav a:hover {
-            color: orange;
-        }
-
-        .container {
-            padding: 20px;
-        }
-
-        img {
-            width: 100%;
-            max-width: 600px;
-            display: block;
-            margin: 20px auto;
-            border-radius: 10px;
-        }
-
-        footer {
-            background-color: #1e293b;
-            text-align: center;
-            padding: 10px;
-            margin-top: 20px;
-        }
-    </style>
+    <title>Latihan List dan Paragraf</title>
 </head>
 <body>
 
-    <!-- Header -->
-    <header>
-        <h1>DOTA 2</h1>
-        <p>Game MOBA Terpopuler di Dunia</p>
-    </header>
+    <!-- Judul -->
+    <h3>Mari kita belajar membuat bullet & numbering menggunakan tag HTML List.</h3>
+    <hr>
 
-    <!-- Menu Navigasi -->
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#hero">Hero</a>
-        <a href="#gameplay">Gameplay</a>
-        <a href="#about">About</a>
-    </nav>
-
-    <!-- Konten -->
-    <div class="container">
-
-        <!-- Home -->
-        <section id="home">
-            <h2>Tentang Dota 2</h2>
-            <p>
-                Dota 2 adalah game MOBA yang dikembangkan oleh Valve.
-                Dua tim berisi 5 pemain bertarung untuk menghancurkan Ancient lawan.
-                Yang terdiri dari berbagai hero dengan kemampuan unik dan strategi yang mendalam.
-                Didalam Team terdapat 5 Role yaitu Carry, Offlaner, Midlaner, Support dan Hard Support.
-            </p>
-
-            <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota2_social.jpg" alt="Dota 2">
-        </section>
-
-        <!-- Hero -->
-        <section id="hero">
-            <h2>Hero Populer</h2>
+    <!-- List -->
+    <p>langkah-langkah membeli buku:</p>
+    <ol>
+        <li>masuklah ke toko buku</li>
+        <li>sebutkan identitas buku seperti contoh berikut:
             <ul>
-                <li>Invoker</li>
-                <li>Juggernaut</li>
-                <li>Pudge</li>
-                <li>Meepo</li>
+                <li><b>Judul:</b> Kasih Tau Ga Ya?</li>
+                <li><b>Penerbit:</b> Mau Tau Aja apa Mau Tau Banget?</li>
+                <li><b>Penulis:</b> Some One Like You</li>
             </ul>
+        </li>
+        <li>pergi ke kasir</li>
+        <li>lakukan pembayaran sejumlah harga buku</li>
+    </ol>
 
-        </section>
+    <!-- Paragraf Align -->
+    <h3>Sekarang yuk kita belajar align dalam paragraph:</h3>
 
-        <!-- Gameplay -->
-        <section id="gameplay">
-            <h2>Cara Bermain</h2>
-            <ol>
-                <li>Pilih Hero Sesuai Role</li>
-                <li>Kumpulkan Gold</li>
-                <li>Beli Item</li>
-                <li>Hancurkan Objectives</li>
-                <li>Menangkan Game</li>
-            </ol>
-        </section>
+    <!-- rata kiri -->
+    <p align="left" style="color: purple;">
+        ini contoh paragraph menggunakan align rata kiri. ini contoh paragraph menggunakan align rata kiri.
+        ini contoh paragraph menggunakan align rata kiri. ini contoh paragraph menggunakan align rata kiri.
+    </p>
 
-        <!-- About -->
-        <section id="about">
-            <h2>About</h2>
-            <p>
-                Website ini dibuat untuk tugas HTML dasar dengan tema Dota 2.
-            </p>
-        </section>
+    <!-- rata tengah -->
+    <p align="center" style="color: green;">
+        sedangkan yang ini menggunakan align tengah. sedangkan yang ini menggunakan align tengah.
+        sedangkan yang ini menggunakan align tengah. sedangkan yang ini menggunakan align tengah.
+    </p>
 
-    </div>
+    <!-- rata kanan -->
+    <p align="right" style="color: red;">
+        yang ini adalah penggunaan align rata kanan. yang ini adalah penggunaan align rata kanan.
+        yang ini adalah penggunaan align rata kanan. yang ini adalah penggunaan align rata kanan.
+    </p>
 
-    <!-- Footer -->
-    <footer>
-        <p>© 2026 Website Dota 2 | Tugas HTML</p>
-    </footer>
+    <!-- rata kiri kanan -->
+    <p align="justify" style="color: blue;">
+        dan terakhir ini menggunakan perataan kanan dan kiri. dan terakhir ini menggunakan perataan kanan dan kiri.
+        dan terakhir ini menggunakan perataan kanan dan kiri. dan terakhir ini menggunakan perataan kanan dan kiri.
+    </p>
 
 </body>
 </html>
