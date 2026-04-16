@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Latihan HTML Dasar">
+    <title>Tugas Latihan HTML</title>
+</head>
+<body>
+
+    <!-- Heading -->
+    <h1>Selamat Datang di Website Saya</h1>
+    <h2>Belajar HTML Dasar</h2>
+
+    <!-- Paragraf -->
+    <p>
+        Ini adalah contoh halaman latihan HTML sederhana. 
+        HTML digunakan untuk membuat struktur dasar halaman web.
+    </p>
+
+    <!-- List Tidak Berurutan -->
+     <h3>Profil Saya:</h3>
+    <ul>
+        <li>Nama: Keyalla Sayyaka Wisesa Kondang</li>
+        <li>Usia: 29 tahun</li>
+        <li>Pekerjaan: Pengolahan Limbah Mall</li>
+    </ul>
+    <h4>Hobi Saya:</h4>
+    <ul>
+        <li>Bermain Game Komputer</li>
+        <li>Membaca Buku</li>
+        <li>Mendengarkan Musik</li>
+    </ul>
+
+    <!-- List Berurutan -->
+    <h3>Langkah Belajar HTML:</h3>
+    <ol>
+        <li>Memahami struktur HTML</li>
+        <li>Mempelajari tag dasar</li>
+        <li>Membuat halaman sederhana</li>
+    </ol>
+
+</body>
+</html>
