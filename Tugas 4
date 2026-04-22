@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Website Hardware: NVIDIA vs AMD</title>
+    <style>
+        /* CSS Sederhana agar tampilan lebih rapi */
+        body { font-family: sans-serif; line-height: 1.6; padding: 20px; max-width: 800px; margin: auto; }
+        nav { background: #333; padding: 10px; margin-bottom: 20px; }
+        nav a { color: white; text-decoration: none; margin-right: 15px; }
+        section { border: 1px solid #ddd; padding: 20px; margin-bottom: 500px; } /* Margin bawah besar agar efek scroll terasa */
+        .kontak-box { background: #f4f4f4; padding: 15px; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#detail">Detail Produk</a>
+        <a href="#kontak">Kontak</a>
+    </nav>
+
+    <section id="home">
+        <h1>Beranda - Perbandingan GPU</h1>
+        <p>Selamat datang di portal informasi kartu grafis. Pilih brand yang ingin Anda pelajari:</p>
+        
+        <ul>
+            <li>
+                <strong>NVIDIA GeForce</strong><br>
+                <a href="#nvidia-detail">Klik di sini untuk detail NVIDIA</a>
+            </li>
+            <br>
+            <li>
+                <strong>AMD Radeon</strong><br>
+                <a href="#amd-detail">
+                    <img src="images/amd_logo.jpg" alt="Logo AMD" width="100"><br>
+                    Lihat detail AMD melalui gambar
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <section id="detail">
+        <h1>Halaman Detail</h1>
+        
+        <div id="nvidia-detail" style="padding-top: 20px;">
+            <h3>Spesifikasi NVIDIA</h3>
+            <p>NVIDIA menggunakan arsitektur terbaru yang mendukung Ray Tracing generasi ke-3 dan DLSS 3.5 untuk performa maksimal pada resolusi tinggi.</p>
+        </div>
+
+        <hr>
+
+        <div id="amd-detail" style="padding-top: 20px;">
+            <h3>Spesifikasi AMD</h3>
+            <p>AMD menawarkan keunggulan pada kapasitas VRAM yang lebih besar di rentang harga yang sama serta fitur FSR (FidelityFX Super Resolution) yang bersifat open-source.</p>
+        </div>
+
+        <br>
+        <a href="#home">↑ Kembali ke Atas (Home)</a>
+    </section>
+
+    <section id="kontak" class="kontak-box">
+        <h1>Halaman Kontak</h1>
+        <p>Punya pertanyaan mengenai hardware? Hubungi tim teknis kami:</p>
+        
+        <p>Email: <a href="mailto:support@hardwareinfo.com">support@hardwareinfo.com</a></p>
+        
+        <br>
+        <a href="#home">Kembali ke Beranda</a>
+    </section>
+
+</body>
+</html>
