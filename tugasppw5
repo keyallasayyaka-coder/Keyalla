@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas PPW 5 - Modern Design</title>
+    <style>
+        /* Gaya Dasar */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #f4f7f6;
+        }
+
+        h2, h3 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+
+        /* Gaya Tabel Modern */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden; /* Agar border radius terlihat */
+        }
+
+        thead {
+            background-color: #3498db;
+            color: white;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tbody tr:hover {
+            background-color: #f1f1f1;
+            transition: 0.3s;
+        }
+
+        /* Gaya Figure & Image */
+        figure {
+            margin: 30px 0;
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            transition: transform 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.02);
+        }
+
+        figcaption {
+            margin-top: 10px;
+            font-style: italic;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+
+        .center { text-align: center; }
+    </style>
+</head>
+<body>
+
+    <h2>Data Mahasiswa Jurusan Teknologi Informasi</h2>
+
+    <!-- Bagian A: Tabel HTML Lengkap -->
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2" class="center">No</th>
+                <th colspan="2" class="center">Identitas Siswa</th>
+                <th rowspan="2" class="center">Jurusan</th>
+            </tr>
+            <tr>
+                <th>Nama</th>
+                <th>NIM</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="center">1</td>
+                <td>Keyalla Sayyaka Wisesa Kondang</td>
+                <td>422421098</td>
+                <td>Teknik Informatika</td>
+            </tr>
+            <tr>
+                <td class="center">2</td>
+                <td>Siti Aminah</td>
+                <td>422421099</td>
+                <td>Sistem Informasi</td>
+            </tr>
+            <tr>
+                <td class="center">3</td>
+                <td>Andi Wijaya</td>
+                <td>422421010</td>
+                <td>Teknik Informatika</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Bagian B: Gambar dengan <figure> -->
+    <h3>Dokumentasi Kampus</h3>
+    <figure>
+        <!-- Referensi file sesuai instruksi -->
+        <img src="istockphoto-1270376955-612x612.jpg" alt="Dokumentasi Mahasiswa">
+        <figcaption>Gambar 1: Aktivitas laboratorium mahasiswa Teknik Informatika tahun 2026.</figcaption>
+    </figure>
+
+</body>
+</html>
