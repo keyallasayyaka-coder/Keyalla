@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dota 2 Portal - Home</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Roboto:wght@300;400&display=swap');
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            background-color: #1b1e21; 
+            color: #bdc3c7; 
+            font-family: 'Roboto', sans-serif; 
+        }
+        
+        nav { 
+            background: #000; 
+            padding: 15px; 
+            text-align: center; 
+            border-bottom: 3px solid #a52a2a; 
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav a { color: #fff; text-decoration: none; margin: 0 20px; font-weight: bold; letter-spacing: 2px; }
+        nav a:hover { color: #a52a2a; }
+
+        .hero { 
+            height: 450px; 
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('image_f359b2.png');
+            background-size: cover; 
+            background-position: center;
+            display: flex; flex-direction: column; justify-content: center; align-items: center;
+            color: #fff; text-align: center;
+            border-bottom: 5px solid #a52a2a;
+        }
+        .hero h1 { font-family: 'Cinzel', serif; font-size: 3.5rem; text-shadow: 2px 2px 10px #ff0000; }
+
+        .container { padding: 50px 10%; text-align: center; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 25px; margin-top: 30px; }
+        
+        .hero-card { 
+            background: #2c3e50; border-radius: 10px; overflow: hidden; 
+            border: 1px solid #444; transition: 0.4s;
+        }
+        .hero-card:hover { transform: scale(1.05); border-color: #a52a2a; box-shadow: 0 0 20px rgba(165, 42, 42, 0.5); }
+        .hero-card img { width: 100%; height: 150px; object-fit: cover; filter: grayscale(30%); }
+        .hero-card h3 { padding: 15px; color: #fff; font-family: 'Cinzel', serif; }
+        .hero-card p { padding: 0 15px 20px; font-size: 0.9rem; color: #95a5a6; }
+
+        .btn { 
+            display: inline-block; margin-top: 50px; padding: 15px 40px; 
+            background: #a52a2a; color: white; text-decoration: none; 
+            border-radius: 5px; font-weight: bold; transition: 0.3s;
+            text-transform: uppercase; border: none; cursor: pointer;
+        }
+        .btn:hover { background: #ff0000; box-shadow: 0 0 15px #ff0000; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="Tugas 6 PPW Part 1.html">DOTA 2 PORTAL</a>
+        <a href="Tugas 6 PPW Part 2.html">RECRUITMENT</a>
+    </nav>
+
+    <div class="hero">
+        <h1>DEFENSE OF THE ANCIENTS</h1>
+        <p>Join the battle of the Ancients and become a Legend.</p>
+    </div>
+
+    <div class="container">
+        <h2 style="font-family: 'Cinzel'; font-size: 2rem;">Featured Heroes</h2>
+        <div class="grid">
+            <div class="hero-card">
+                <img src="https://static.wikia.nocookie.net/dota2_gamepedia/images/8/89/Axe_icon.png" alt="Axe">
+                <h3>Axe</h3>
+                <p>Strength - Carry, Initiator, Durable, Disabler, Jungler.</p>
+            </div>
+            <div class="hero-card">
+                <img src="https://static.wikia.nocookie.net/dota2_gamepedia/images/6/6e/Crystal_Maiden_icon.png" alt="Crystal Maiden">
+                <h3>Crystal Maiden</h3>
+                <p>Intelligence - Support, Disabler, Nuker, Jungler.</p>
+            </div>
+            <div class="hero-card">
+                <img src="https://static.wikia.nocookie.net/dota2_gamepedia/images/5/5e/Phantom_Assassin_icon.png" alt="Phantom Assassin">
+                <h3>Phantom Assassin</h3>
+                <p>Agility - Carry, Escape.</p>
+            </div>
+        </div>
+        
+        <a href="Tugas 6 PPW Part 2.html" class="btn">Daftar Tim Pro Sekarang</a>
+    </div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recruitment Form - Dota 2</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+        
+        body { background: #0f1011; color: #fff; font-family: 'Roboto', sans-serif; display: flex; flex-direction: column; min-height: 100vh; }
+        nav { background: #000; padding: 15px; text-align: center; border-bottom: 3px solid #a52a2a; }
+        nav a { color: #fff; text-decoration: none; margin: 0 20px; font-weight: bold; }
+
+        .form-wrapper { 
+            background: #1c1e21; width: 550px; margin: 50px auto; 
+            padding: 40px; border-radius: 5px; border-left: 5px solid #a52a2a;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+        }
+        h2 { margin-bottom: 30px; text-align: center; letter-spacing: 3px; color: #a52a2a; }
+        
+        .field { margin-bottom: 20px; }
+        label { display: block; margin-bottom: 8px; font-size: 0.9rem; color: #bdc3c7; }
+        input, select, textarea { 
+            width: 100%; padding: 12px; background: #2c3e50; border: 1px solid #444; 
+            color: #fff; border-radius: 3px; outline: none;
+        }
+        input:focus { border-color: #a52a2a; }
+        
+        .submit-btn { 
+            width: 100%; padding: 15px; background: #a52a2a; 
+            border: none; color: white; font-weight: bold; 
+            cursor: pointer; text-transform: uppercase; transition: 0.3s;
+        }
+        .submit-btn:hover { background: #ff0000; }
+        .back-home { display: block; text-align: center; margin-top: 20px; color: #7f8c8d; text-decoration: none; font-size: 0.8rem; }
+        .back-home:hover { color: #fff; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="Tugas 6 PPW Part 1.html">DOTA 2 PORTAL</a>
+        <a href="Tugas 6 PPW Part 2.html">RECRUITMENT</a>
+    </nav>
+
+    <div class="form-wrapper">
+        <h2>PLAYER RECRUITMENT</h2>
+        <form action="#">
+            <div class="field">
+                <label>Steam Display Name</label>
+                <input type="text" placeholder="e.g. Miracle-" required>
+            </div>
+            <div class="field">
+                <label>Rank / MMR</label>
+                <select>
+                    <option>Herald / Guardian</option>
+                    <option>Crusader / Archon</option>
+                    <option>Legend / Ancient</option>
+                    <option>Divine / Immortal</option>
+                </select>
+            </div>
+            <div class="field">
+                <label>Role Utama</label>
+                <select>
+                    <option>Pos 1 - Safelane Carry</option>
+                    <option>Pos 2 - Midlane</option>
+                    <option>Pos 3 - Offlane</option>
+                    <option>Pos 4/5 - Support</option>
+                </select>
+            </div>
+            <div class="field">
+                <label>Hero Andalan</label>
+                <textarea rows="3" placeholder="Sebutkan 3 hero terbaikmu..."></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Submit Application</button>
+        </form>
+        <a href="Tugas 6 PPW Part 1.html" class="back-home">← Kembali ke Main Hall</a>
+    </div>
+
+</body>
+</html>
